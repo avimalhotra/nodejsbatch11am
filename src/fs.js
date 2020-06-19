@@ -2,12 +2,12 @@ const fs=require('fs');
 var data="\nhello user";
 
 
-//let file=fs.readFileSync(('src/file.txt'),{encoding:'utf-8'});
+//let file=fs.readFileSync(('src/file.txt'),{encoding:'utf8'});
 
 //console.log(file);
 //console.log(file.toString());
 
-// fs.readFile('src/file.txt',{encoding:'utf-8'},(err,data)=>{
+// fs.readFile('src/file.txt',{encoding:'utf8'},(err,data)=>{
 //     if(err){
 //         console.error("error found")
 //     }
